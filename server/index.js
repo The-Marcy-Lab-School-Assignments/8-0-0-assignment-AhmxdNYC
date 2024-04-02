@@ -25,3 +25,4 @@ app.get("/api/greeting", logger, sendDataWithQueryParam);
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
